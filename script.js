@@ -146,16 +146,22 @@ const daysData = [
     },
     {
         title: "The gory history of barber surgeons",
-        time: "5 minutess",
+        time: "5 minutes",
         description: "Before you go to hairdresser, why iy looks like that. It was a cold morning in 15th century France and you’re off to the barber for a shave and haircut. You hear the familiar sound of singing inside and eye a bowl of blood in the window. You grab a cup of ale and examine the array of teeth strung from the walls. Suddenly, a scream sounds from one of the chairs. What's going on? Stephanie Honchell Smith shares the surprising history of barber-surgeons.\n" +
             "\n",
         link: "https://youtu.be/fGPPy__YnrI"
     },
     {
         title: "How to master your sense of smell",
-        time: "4 minutess",
+        time: "4 minutes",
         description: "Some perfumers can distinguish individual odors in a fragrance made of hundreds of scents; tea-experts have been known to sniff out the exact location of a particular tea; and the NYC Transit Authority once had a employee responsible only for sniffing out gas leaks. But can anyone learn to smell with the sensitivity of those experts? Alexandra Horowitz shares three simple steps to a better nose.\n",
         link: "https://youtu.be/ynrbxy36erE"
+    },
+    {
+        title: "How does caffeine keep us awake?",
+        time: "5 minutes",
+        description: "Over 100,000 metric tons of caffeine are consumed around the world every year. That’s equivalent to the weight of 14 Eiffel Towers! Caffeine helps us feel alert, focused, and energetic, even if we haven’t had enough sleep — but it can also raise our blood pressure and make us feel anxious. So how does it keep us awake? Hanan Qasim shares the science behind the world’s most widely used drug. ",
+        link: "https://www.ted.com/talks/hanan_qasim_how_does_caffeine_keep_us_awake?subtitle=en"
     }
 ];
 
@@ -222,10 +228,10 @@ function updateCountdown() {
 
     const days = Math.floor(diff / (1000 * 60 * 60 * 24));
     const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutess = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((diff % (1000 * 60)) / 1000);
 
-    countdownTimer.textContent = `${days} days ${hours} hr ${minutess} m ${seconds} s`;
+    countdownTimer.textContent = `${days} days ${hours} hr ${minutes} m ${seconds} s`;
 }
 
 const countdownInterval = setInterval(updateCountdown, 1000);
