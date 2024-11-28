@@ -1,0 +1,300 @@
+.title-part-2 {
+    position: relative;
+    font-family: 'JetBrains Mono';
+    color: #7f1d1d;
+}
+.title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1px;
+    font-family: 'Instrument Serif';
+}
+.countdown-title {
+    align-self: stretch;
+    position: relative;
+}
+.countdown-timer {
+    align-self: stretch;
+    position: relative;
+    font-size: 32px;
+    font-family: 'Instrument Serif';
+    color: #dc2626;
+    text-align: left;
+}
+.countdown-container {
+    width: 252px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    text-align: center;
+    font-size: 20px;
+    color: #14532d;
+}
+.created-by {
+    margin: 0;
+}
+.oleksandr-riadinskyi1 {
+    font-weight: 700;
+}
+.creator-info {
+    position: relative;
+}
+.creator-avatar {
+    align-self: stretch;
+    width: 1px;
+    position: relative;
+    background-color: #450a0a;
+}
+.github-link {
+    align-self: stretch;
+    position: relative;
+    text-decoration: underline;
+    color: #14532d;
+    text-align: left;
+}
+.instagram-link {
+    align-self: stretch;
+    position: relative;
+    text-decoration: underline;
+    color: #dc2626;
+    text-align: left;
+}
+.social-links {
+    width: 87px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1px;
+    text-align: center;
+    color: #22c55e;
+}
+.creator-container {
+    border-radius: 16px;
+    border: 1px solid #052e16;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 8px;
+    gap: 18px;
+    font-size: 16px;
+    color: #450a0a;
+}
+.header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 120px;
+}
+.date-month {
+    position: relative;
+    font-family: 'JetBrains Mono';
+}
+.date-info {
+    position: absolute;
+    top: calc(50% - 41.37px);
+    left: calc(50% - 27.75px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.st-dec {
+    width: 194.3px;
+    position: relative;
+    border-radius: 10.5px;
+    background-color: #dcfce7;
+    border: 2.3px solid #16a34a;
+    box-sizing: border-box;
+    height: 194.3px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.date-info1 {
+    position: absolute;
+    top: calc(50% - 41.38px);
+    left: calc(50% - 27.75px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.rd4 {
+    width: 600.3px;
+    position: relative;
+    border-radius: 10.5px;
+    background-color: #fee2e2;
+    border: 2.3px solid #dc2626;
+    box-sizing: border-box;
+    height: 194.3px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: #b91c1c;
+}
+.date-month10 {
+    width: 54px;
+    position: relative;
+    display: inline-block;
+    font-family: 'JetBrains Mono';
+}
+.date-info23 {
+    position: absolute;
+    top: calc(50% - 41.38px);
+    left: calc(50% - 27.25px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.rd21 {
+    width: 543.3px;
+    position: relative;
+    border-radius: 10.5px;
+    background-color: #fee2e2;
+    border: 2.3px solid #dc2626;
+    box-sizing: border-box;
+    height: 194.3px;
+    overflow: hidden;
+    flex-shrink: 0;
+    color: #b91c1c;
+}
+.calendar-container {
+    align-self: stretch;
+    border-radius: 15px;
+    border: 4px solid #15803d;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 17px 16px 18px;
+    gap: 13px;
+    font-size: 30px;
+    font-family: 'Instrument Serif';
+}
+.main-container {
+    position: absolute;
+    top: 41px;
+    left: 132px;
+    width: 1175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.happy-christmas-container {
+    position: absolute;
+    top: 1438px;
+    left: calc(50% - 336px);
+    color: #000;
+}
+.desktop-2 {
+    width: 100%;
+    position: relative;
+    background-color: #f0fdf4;
+    height: 680px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 48px;
+    color: #15803d;
+    font-family: 'JetBrains Mono';
+}
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #f0fdf4;
+    color: #15803d;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.desktop-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.title-container {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.countdown-container {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.calendar-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.st-dec {
+    width: 100px;
+    height: 100px;
+    background-color: #dcfce7;
+    border: 2px solid #16a34a;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.st-dec:hover {
+    background-color: #a7f3d0;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid #16a34a;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 90%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px 0;
+    background-color: #FEE2E2;
+    color: #b91c1c;
+}
+
